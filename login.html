@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <title>LOGIN</title>
 </head>
+
 <body>
     <header>
         <a href="./index.html">
@@ -51,17 +53,33 @@
                 <li><a href="./category.html">Womens Watches</a></li>
             </ul>
         </nav>
-        <div>
-            <section>
+        <h1>BIENVENIDO</h1>
+        <div class="contenedor">
+            <form action="./index.html" method="get">
+                <div>
+                    <label for="MailUsuario">Mail</label>
+                    <input type="email" name="MailUsuario" placeholder="email" id="MailUsuario" required>
+                    <span class="feedback"></span>
+                </div>
+                <div>
+                    <label for="ContraseñaUsuario">Contraseña:</label>
+                    <input type="password" name="ContraseñaUsuario" placeholder="password" id="ContraseñaUsuario"
+                        required>
+                    <span class="feedback"></span>
+                </div>
+                <div>
+                    <button type="submit" class="ingreso">Ingresar</button>
+                </div>
+                <div>
+                    <a href="./register.html">No tengo cuenta</a>
+                </div>
 
-            </section>
-            <section>
-
-            </section>
+            </form>
         </div>
     </main>
     <footer>
         <p>Micaela Grinberg, Iosef Kier Joffe y Luana Sarfatis</p>
     </footer>
 </body>
+
 </html>
