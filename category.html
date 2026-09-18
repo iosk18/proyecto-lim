@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <title>CATEGORY</title>
 </head>
-
+ 
 <body>
     <header>
-        <a href="./index.html">
-            <img src="./img/logo.jpeg" alt="En esta imagen podras ver el logo de LIM">
-        </a>
-        <form action="./search-results.html" method="GET">
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./img/logo.jpeg" alt="En esta imagen podras ver el logo de LIM" class="logo_foto">
+            </a>
+        </div>
+        <form class="busqueda" action="./search-results.html" method="GET">
             <input type="search" name="busqueda" value="">
             <button type="submit">Buscar</button>
         </form>
         <nav>
-            <ul>
-                <li><a href="./login.html">Login</a></li>
-                <li><a href="./register.html">Register</a></li>
+            <ul class="acceso">
+                <li><a href="./index.html" class="home">Home</a></li>
+                <li><a href="./login.html" class="login">Login</a></li>
+                <li><a href="./register.html" class="register">Register</a></li>
             </ul>
         </nav>
     </header>
@@ -53,46 +56,37 @@
                 <li><a href="./category.html">Womens Watches</a></li>
             </ul>
         </nav>
-        <div>
-            <section>
-                <h2> Vehiculos dee mayor costo</h2>
-                <article>
+        <div class="catalogo">
+            <h2 class="index_titulo">Vehículos de mayor costo</h2>
+            <section class="index_section">
+                <article class="index_autos">
                     <img src="./img/Rolls-Royce Phantom.jpeg" alt="Rolls-Royce Phantom">
                     <h3>Rolls-Royce Phantom</h3>
-                    <p>El buque insignia de Rolls-Royce, en su 8ª generación. V12 biturbo de 6,75 litros, suspensión
-                        'alfombra mágica' y opción Extended con mampara de cristal electrocrómico para usarlo como
-                        oficina móvil.</p>
+                    <p>Buque insignia de Rolls-Royce, con V12 biturbo de 6,75 litros y suspensión "alfombra mágica".</p>
                     <a href="./product.html">Ver más</a>
                 </article>
-                <article>
+                <article class="index_autos">
                     <img src="./img/Ferrari 488 GTB.jpeg" alt="Ferrari 488 GTB">
                     <h3>Ferrari 488 GTB</h3>
-                    <p>Sucesor del 458, con motor V8 biturbo central que marcó el regreso de Ferrari a la
-                        sobrealimentación en sus modelos "chicos". Maneja quirúrgico, aerodinámica trabajada al detalle
-                        y ese prestigio de marca que pocos igualan en el segmento.</p>
+                    <p>Sucesor del 458, con V8 biturbo central, aerodinámica trabajada al detalle y el prestigio de Ferrari.</p>
                     <a href="./product.html">Ver más</a>
                 </article>
-                <article>
+                <article class="index_autos">
                     <img src="./img/Bugatti Chiron.jpeg" alt="Bugatti Chiron">
                     <h3>Bugatti Chiron</h3>
-                    <p>Uno de los autos de producción más rápidos y potentes del mundo. Motor W16 cuatriturbo con más de
-                        1.500 CV, pensado para velocidades máximas extremas y una ingeniería casi de otro planeta.</p>
+                    <p>Uno de los autos de producción más rápidos del mundo, con motor W16 cuatriturbo de más de 1.500 CV.</p>
                     <a href="./product.html">Ver más</a>
                 </article>
-                <article>
+                <article class="index_autos">
                     <img src="./img/Lamborghini Aventador.jpeg" alt="Lamborghini Aventador">
                     <h3>Lamborghini Aventador</h3>
-                    <p>El buque insignia de Lamborghini durante más de una década. Motor V12 atmosférico central,
-                        puertas de tijera y un diseño extremo que prioriza el impacto visual tanto como la performance
-                        pura.</p>
+                    <p>Buque insignia de Lamborghini por más de una década, con V12 atmosférico central y puertas de tijera.</p>
                     <a href="./product.html">Ver más</a>
                 </article>
-                <article>
+                <article class="index_autos">
                     <img src="./img/Pagani Huayra.jpeg" alt="Pagani Huayra">
                     <h3>Pagani Huayra</h3>
-                    <p>Superdeportivo italiano artesanal, con chasis de materiales compuestos avanzados y un motor V12
-                        biturbo desarrollado junto a Mercedes-AMG. Cada unidad es prácticamente una pieza de arte hecha
-                        a medida del comprador.</p>
+                    <p>Superdeportivo italiano artesanal, con chasis de materiales compuestos y V12 biturbo desarrollado junto a Mercedes-AMG.</p>
                     <a href="./product.html">Ver más</a>
                 </article>
             </section>
@@ -102,5 +96,5 @@
         <p>Micaela Grinberg, Iosef Kier Joffe y Luana Sarfatis</p>
     </footer>
 </body>
-
+ 
 </html>
