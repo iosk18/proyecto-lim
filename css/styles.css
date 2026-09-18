@@ -123,8 +123,8 @@ main nav {
     margin: 30px auto 0 auto;
     padding: 15px;
     text-align: center;
-    background-color: #0b1f3a;
-    color: blanchedalmond;
+    background-color: #e0a526;
+    color: black;
 }
 
 
@@ -132,4 +132,66 @@ footer {
     background-color: #a9c7e8;
     padding: 20px;
     text-align: center;
+}
+
+.producto {
+    width: 50%;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #e6e6e6;
+   
+}
+ 
+.producto_foto {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+ 
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+ 
+.review {
+    width: 30%;
+    margin: 20px 10px 0 10px;
+    padding: 15px;
+    background-color: #e6e6e6;
+}
+
+
+.main_form {
+    align-items: stretch;
+}
+ 
+.centrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.contenedor {
+    width: 40%;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+ 
+.contenedor div {
+    margin-bottom: 15px;
+}
+ 
+.contenedor label {
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+.contenedor input {
+    width: 100%;
+    padding: 8px;
 }
