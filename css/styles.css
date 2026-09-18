@@ -195,3 +195,24 @@ footer {
     width: 100%;
     padding: 8px;
 }
+.sin_resultados {
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+.sin_resultados p {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.sin_resultados a {
+    display: inline-block;
+    color: white;
+    background-color: rgba(48, 44, 44, 0.642);
+    font-size: 18px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    padding-top: 8px;
+}

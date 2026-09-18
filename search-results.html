@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Resultados de busqueda</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -14,7 +16,7 @@
             </a>
         </div>
         <form class="busqueda" action="./search-results.html" method="GET">
-            <input type="search" name="busqueda" value="">
+            <input type="search" name="busqueda" value="Lamborghini">
             <button type="submit">Buscar</button>
         </form>
         <nav>
@@ -55,11 +57,26 @@
             </ul>
         </nav>
         <div class="catalogo">
-            <section>
- 
+            <h2 class="index_titulo">Resultados para Lamborghini</h2>
+            <section class="index_section">
+                <article class="index_autos">
+                    <img src="./img/Lamborghini Aventador.jpeg" alt="Lamborghini Aventador">
+                    <h3>Lamborghini Aventador</h3>
+                    <p>Buque insignia de Lamborghini por más de una década, con V12 atmosférico central y puertas de
+                        tijera.</p>
+                    <a href="./product.html">Ver más</a>
+                </article>
+                <article class="index_autos">
+                    <img src="./img/Lamborghini Huracán.jpeg" alt="Lamborghini Huracán">
+                    <h3>Lamborghini Huracán</h3>
+                    <p>El Lamborghini "de entrada", con V10 atmosférico central, líneas angulares y un sonido de escape
+                        que es parte de la experiencia.</p>
+                    <a href="./product.html">Ver más</a>
+                </article>
             </section>
-            <section>
- 
+            <section class="sin_resultados">
+                <p>Sin coincidencias</p>
+                <a href="./index.html">Volver al inicio</a>
             </section>
         </div>
     </main>
@@ -67,4 +84,5 @@
         <p>Micaela Grinberg, Iosef Kier Joffe y Luana Sarfatis</p>
     </footer>
 </body>
+
 </html>
