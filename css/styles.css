@@ -1,78 +1,85 @@
-
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
- 
-a{
+
+a {
     text-decoration: none;
 }
- 
-ul, ol, li{
+
+ul,
+ol,
+li {
     list-style: none;
 }
- 
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #a9c7e8;
 }
- 
+
 .acceso {
     display: flex;
     justify-content: right;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding-right: 50px;
     text-decoration: none;
     font-weight: normal;
 }
-.home, .login {
-     padding-right: 20px;
-     color: black;
+
+.home,
+.login {
+    padding-right: 20px;
+    color: black;
 }
+
 .register {
     color: black;
 }
+
 .logo {
     display: flex;
     justify-content: center;
 }
-.logo_foto{
+
+.logo_foto {
     border-radius: 50%;
     width: 200px;
 }
+
 .busqueda {
     display: flex;
     justify-content: right;
 }
- 
+
 main {
     display: flex;
 }
- 
+
 main nav {
     display: flex;
     width: 15%;
     background-color: #0b1f3a;
     padding: 20px;
 }
- 
+
 .menu_vertical {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
- 
+
 .menu_vertical a {
     color: white;
 }
- 
+
 .catalogo {
     width: 85%;
 }
- 
+
 .index_section {
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +87,7 @@ main nav {
     margin-bottom: 30px;
     justify-content: center;
 }
- 
+
 .index_autos {
     width: 28%;
     display: flex;
@@ -89,21 +96,21 @@ main nav {
     margin-right: 20px;
     padding-bottom: 30px;
 }
- 
+
 .index_autos img {
     margin-bottom: 15px;
 }
- 
+
 .index_autos h3 {
     margin-bottom: 20px;
     font-style: inherit;
 }
- 
+
 .index_autos p {
     margin-bottom: 15px;
     font-style: initial;
 }
- 
+
 .index_autos a {
     display: inline-block;
     color: white;
@@ -139,22 +146,22 @@ footer {
     margin: 30px auto;
     padding: 15px;
     background-color: #e6e6e6;
-   
+
 }
- 
+
 .producto_foto {
     display: block;
     width: 100%;
     margin-bottom: 15px;
 }
- 
+
 .reviews {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 30px;
 }
- 
+
 .review {
     width: 30%;
     margin: 20px 10px 0 10px;
@@ -166,14 +173,14 @@ footer {
 .main_form {
     align-items: stretch;
 }
- 
+
 .centrado {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
- 
+
 .contenedor {
     width: 40%;
     margin-top: 20px;
@@ -181,20 +188,21 @@ footer {
     background-color: #e6e6e6;
     text-align: center;
 }
- 
+
 .contenedor div {
     margin-bottom: 15px;
 }
- 
+
 .contenedor label {
     display: block;
     margin-bottom: 5px;
 }
- 
+
 .contenedor input {
     width: 100%;
     padding: 8px;
 }
+
 .sin_resultados {
     width: 50%;
     margin: 30px auto;
@@ -202,10 +210,12 @@ footer {
     background-color: #e6e6e6;
     text-align: center;
 }
+
 .sin_resultados p {
     margin-bottom: 15px;
     font-weight: bold;
 }
+
 .sin_resultados a {
     display: inline-block;
     color: white;
@@ -215,4 +225,120 @@ footer {
     width: 150px;
     height: 40px;
     padding-top: 8px;
+}
+
+
+@media (max-width: 420px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 8px;
+        align-items: center;
+        background-color: #a9c7e8;
+        width: 100;
+    }
+
+    .logo_foto {
+        width: 80px;
+    }
+
+    .busqueda {
+        display: flex;
+        align-items: center;
+        margin: 15px 0px;
+    }
+
+    .busqueda input {
+        width: 90px;
+        margin-left: 15px;
+    }
+
+    .acceso {
+        justify-content: center;
+        padding-right: 0px;
+    }
+
+    .login {
+        display: inline-block;
+    }
+
+    .login,
+    .register,
+    .home {
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main nav {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .menu_vertical {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu_vertical li {
+        margin: 5px;
+    }
+
+    .catalogo{
+        width: 100%;
+    }
+    .index_section{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .index_autos{
+        margin-left: 12px;
+        margin-right: 0px;
+    }
+    .index_autos p{
+        font-size: 13px;
+    }
+    .index_autos h3{
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .producto{
+        width: 90%;
+    }
+
+    .review{
+        width: 90%;
+    }
+    .index_titulo{
+        width: 90%;
+    }
+
+    .contenedor{
+        width: 90%;
+        padding: 15px;
+    }
+    .sin_resultados{
+        width: 90%;
+    }
+
+    .sin_resultados a {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
