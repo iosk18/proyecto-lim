@@ -169,11 +169,6 @@ footer {
     background-color: #e6e6e6;
 }
 
-
-.main_form {
-    align-items: stretch;
-}
-
 .centrado {
     display: flex;
     flex-direction: column;
@@ -331,10 +326,6 @@ footer {
     }
     .sin_resultados{
         width: 90%;
-    }
-
-    .sin_resultados a {
-        width: 100%;
     }
 
 
