@@ -293,12 +293,19 @@ footer {
     .index_section{
         margin-top: 15px;
         margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
     }
-
     .index_autos{
         margin-left: 12px;
         margin-right: 0px;
+        width: 90%;
     }
+    .index_autos img{
+        width: 100%;
+        }
     .index_autos p{
         font-size: 13px;
     }
