@@ -230,6 +230,19 @@ footer {
     padding-top: 8px;
 }
 
+.producto_nombre {
+    margin-bottom: 15px;
+}
+
+.producto_datos h3 {
+    margin-top: 15px;
+}
+
+.producto_categoria {
+    color: #0b1f3a;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 @media (max-width: 420px) {
     header {
