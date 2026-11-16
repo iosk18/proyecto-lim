@@ -244,6 +244,19 @@ footer {
     text-decoration: underline;
 }
 
+.saludo,
+.logout {
+    display: none;
+}
+
+.saludo {
+    padding-right: 20px;
+}
+
+.logout {
+    color: black;
+}
+
 @media (max-width: 420px) {
     header {
         display: flex;
@@ -280,7 +293,9 @@ footer {
 
     .login,
     .register,
-    .home {
+    .home,
+    .saludo,
+    .logout {
         margin-left: 5px;
         font-size: 12px;
     }

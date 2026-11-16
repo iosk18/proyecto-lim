@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <title>REGISTER</title>
 </head>
- 
+
 <body>
     <header>
         <div class="logo">
@@ -24,6 +24,10 @@
                 <li><a href="./index.html" class="home">Home</a></li>
                 <li><a href="./login.html" class="login">Login</a></li>
                 <li><a href="./register.html" class="register">Register</a></li>
+                <li>
+                    <p class="saludo"></p>
+                </li>
+                <li><a href="./index.html" class="logout">Logout</a></li>
             </ul>
         </nav>
     </header>
@@ -35,21 +39,23 @@
         <div class="catalogo centrado">
             <h1 class="index_titulo">REGÍSTRATE</h1>
             <div class="contenedor">
-                <form action="./login.html" method="get">
+                <form action="./login.html" method="get" class="form_register">
                     <div>
                         <label for="MailUsuario">Email:</label>
-                        <input type="email" name="MailUsuario" placeholder="Ingresá tu mail" id="MailUsuario" required>
-                        <span class="feedback"></span>
+                        <input type="email" name="MailUsuario" placeholder="Ingresá tu mail" id="MailUsuario">
+                        <span class="feedback feedback_mail"></span>
                     </div>
                     <div>
                         <label for="ContrasenaUsuario">Contraseña:</label>
-                        <input type="password" name="ContrasenaUsuario" placeholder="contraseña"
-                            id="ContrasenaUsuario" value="" required>
+                        <input type="password" name="ContrasenaUsuario" placeholder="contraseña" id="ContrasenaUsuario"
+                            value="">
+                        <span class="feedback feedback_contra"></span>
                     </div>
                     <div>
                         <label for="ContraUsuario">Repetir contraseña:</label>
-                        <input type="password" name="ContraUsuario" placeholder="repetir contraseña"
-                            id="ContraUsuario" value="" required>
+                        <input type="password" name="ContraUsuario" placeholder="repetir contraseña" id="ContraUsuario"
+                            value="">
+                        <span class="feedback feedback_repetir"></span>
                     </div>
                     <div class="condiciones">
                         <label>
@@ -72,6 +78,9 @@
     </footer>
     <script src="./js/buscador.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/saludo.js"></script>
+    <script src="./js/logout.js"></script>
+    <script src="./js/register.js"></script>
 </body>
- 
+
 </html>

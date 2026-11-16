@@ -16,5 +16,3 @@ fetch('https://dummyjson.com/products/categories')
     .catch(function (error) {
         console.log(error);
     });
-
-    

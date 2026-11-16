@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <title>CATEGORY<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>CATEGORY</title>
 </head>
 
@@ -24,6 +31,10 @@
                 <li><a href="./index.html" class="home">Home</a></li>
                 <li><a href="./login.html" class="login">Login</a></li>
                 <li><a href="./register.html" class="register">Register</a></li>
+                <li>
+                    <p class="saludo"></p>
+                </li>
+                <li><a href="./index.html" class="logout">Logout</a></li>
             </ul>
         </nav>
     </header>
@@ -44,6 +55,59 @@
 
     <script src="./js/menu.js"></script>
     <script src="./js/buscador.js"></script>
+    <script src="./js/saludo.js"></script>
+    <script src="./js/logout.js"></script>
+    <script src="./js/category.js"></script>
+
+</body>
+
+</html></title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./img/logo.jpeg" alt="En esta imagen podras ver el logo de LIM" class="logo_foto">
+            </a>
+        </div>
+        <form class="busqueda" action="./search-results.html" method="GET">
+            <input type="search" name="busqueda" value="">
+            <button type="submit">Buscar</button>
+        </form>
+        <nav>
+            <ul class="acceso">
+                <li><a href="./index.html" class="home">Home</a></li>
+                <li><a href="./login.html" class="login">Login</a></li>
+                <li><a href="./register.html" class="register">Register</a></li>
+                <li>
+                    <p class="saludo"></p>
+                </li>
+                <li><a href="./index.html" class="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <nav>
+            <ul class="menu_vertical">
+            </ul>
+        </nav>
+        <div class="catalogo">
+            <h2 class="index_titulo categoria_titulo"></h2>
+            <section class="index_section categoria_productos">
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Micaela Grinberg, Iosef Kier Joffe y Luana Sarfatis</p>
+    </footer>
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/buscador.js"></script>
+    <script src="./js/saludo.js"></script>
+    <script src="./js/logout.js"></script>
+    <script src="./js/category.js"></script>
+
 </body>
 
 </html>
