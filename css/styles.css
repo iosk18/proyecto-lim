@@ -111,13 +111,21 @@ main nav {
     font-style: initial;
 }
 
+.index_autos img {
+    width: 100%;
+}
+
+.precio {
+    font-weight: bold;
+}
+
 .index_autos a {
     display: inline-block;
     color: white;
     background-color: rgba(48, 44, 44, 0.642);
     font-size: 18px;
     font-weight: bold;
-    width: 100px;
+    width: 130px;
     height: 40px;
     text-align: center;
     line-height: 40px;
@@ -278,14 +286,16 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .menu_vertical li {
         margin: 5px;
     }
 
-    .catalogo{
+    .catalogo {
         width: 100%;
     }
-    .index_section{
+
+    .index_section {
         margin-top: 15px;
         margin-bottom: 15px;
         display: flex;
@@ -293,38 +303,44 @@ footer {
         align-items: center;
         flex-wrap: nowrap;
     }
-    .index_autos{
+
+    .index_autos {
         margin-left: 12px;
         margin-right: 0px;
         width: 90%;
     }
-    .index_autos img{
+
+    .index_autos img {
         width: 100%;
-        }
-    .index_autos p{
+    }
+
+    .index_autos p {
         font-size: 13px;
     }
-    .index_autos h3{
+
+    .index_autos h3 {
         margin-bottom: 5px;
         font-size: 18px;
     }
 
-    .producto{
+    .producto {
         width: 90%;
     }
 
-    .review{
-        width: 90%;
-    }
-    .index_titulo{
+    .review {
         width: 90%;
     }
 
-    .contenedor{
+    .index_titulo {
+        width: 90%;
+    }
+
+    .contenedor {
         width: 90%;
         padding: 15px;
     }
-    .sin_resultados{
+
+    .sin_resultados {
         width: 90%;
     }
 
