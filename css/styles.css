@@ -55,25 +55,49 @@ header {
     justify-content: right;
 }
 
+.busqueda input {
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #0b1f3a;
+    border-radius: 5px;
+}
+
+.busqueda button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    background-color: #0b1f3a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
 main {
     display: flex;
+    align-items: flex-start;
 }
 
 main nav {
     display: flex;
     width: 15%;
-    background-color: #0b1f3a;
+    background-color: #e6e6e6;
+    border-right: 3px solid #e0a526;
     padding: 20px;
 }
 
 .menu_vertical {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .menu_vertical a {
-    color: white;
+    color: #0b1f3a;
+    font-weight: bold;
+}
+
+.menu_vertical li {
+    margin-bottom: 8px;
 }
 
 .catalogo {
@@ -254,7 +278,7 @@ footer {
 @media (max-width: 420px) {
     header {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         padding: 10px 8px;
         align-items: center;
         background-color: #a9c7e8;
@@ -271,13 +295,14 @@ footer {
         margin: 15px 0px;
     }
 
+
     .busqueda input {
-        width: 90px;
-        margin-left: 15px;
+        width: 160px;
     }
 
     .acceso {
         justify-content: center;
+        flex-wrap: wrap;
         padding-right: 0px;
     }
 
