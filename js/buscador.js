@@ -4,7 +4,7 @@ let campo = document.querySelector('.busqueda input');
 formulario.addEventListener('submit', function (event) {
     event.preventDefault();
 
-    if (campo.value == "") {
+    if (campo.value === "") {
         alert("Escribí algo para buscar");
     } else {
         if (campo.value.length < 3) {

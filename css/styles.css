@@ -111,10 +111,6 @@ main nav {
     font-style: initial;
 }
 
-.index_autos img {
-    width: 100%;
-}
-
 .precio {
     font-weight: bold;
 }
@@ -239,9 +235,7 @@ footer {
 }
 
 .producto_categoria {
-    color: #0b1f3a;
-    font-weight: bold;
-    text-decoration: underline;
+    color: black;
 }
 
 .saludo,
@@ -264,7 +258,7 @@ footer {
         padding: 10px 8px;
         align-items: center;
         background-color: #a9c7e8;
-        width: 100;
+        width: 100%;
     }
 
     .logo_foto {
@@ -371,16 +365,5 @@ footer {
     .sin_resultados {
         width: 90%;
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }

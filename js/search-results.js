@@ -12,7 +12,7 @@ fetch('https://dummyjson.com/products/search?q=' + termino)
         return response.json();
     })
     .then(function (data) {
-        if (data.products.length == 0) {
+        if (data.products.length === 0) {
             let aviso = '';
             aviso += '<div class="sin_resultados">';
             aviso += '<p>No hay resultados para el término: ' + termino + '</p>';

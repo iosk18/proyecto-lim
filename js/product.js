@@ -38,11 +38,12 @@ fetch(`https://dummyjson.com/products/${idProducto}`)
         stockProducto.innerText = `${data.stock} unidades disponibles`;
 
         let tags = "";
-        for (let i = 0; i < data.tags.length && i < 3; i++) {
-            tags += `<li>${data.tags[i]}</li>`;
+        for (let i = 0; i < data.tags.length; i++) {
+            if (i < 3) {
+                tags += `<li>${data.tags[i]}</li>`;
+            }
         }
         tagsProducto.innerHTML = tags;
-
         let reviews = "";
         for (let i = 0; i < data.reviews.length; i++) {
             reviews += `<article class="review">
