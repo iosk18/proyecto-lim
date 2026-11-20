@@ -1,7 +1,7 @@
 let seccionCelulares = document.querySelector(".celulares");
 let seccionDeportes = document.querySelector(".deportes");
 
-fetch("https://dummyjson.com/products/category/smartphones")
+fetch("https://dummyjson.com/products/category/smartphones?limit=10")
     .then(function (response) {
         return response.json();
     })
@@ -25,7 +25,7 @@ fetch("https://dummyjson.com/products/category/smartphones")
         console.log("El error es: " + error);
     });
 
-fetch("https://dummyjson.com/products/category/sports-accessories")
+fetch("https://dummyjson.com/products/category/sports-accessories?limit=10")
     .then(function (response) {
         return response.json();
     })
